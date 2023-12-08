@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #0A0A10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px 36px;
+    max-width: 414px;
+    gap: 12px;
+    position: relative;
+}
+
+.blur {
+    width: 414px;
+    height: 280px;
+    background-color: #FFF;
+    opacity: 0.25;
+    filter: blur(24px);
+    position: absolute;
+    z-index: -1;
+}
+
+h1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 42px;
+}
+
+.box-inputs {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+label {
+    color: rgba(182, 182, 182, 0.6);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+input {
+    background-color: transparent;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(182, 182, 182, 0.6);
+    margin-bottom: 35px;
+    color: #FFF;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    padding-left: 8px;
+}
+
+.buttonLogin {
+    display: flex;
+    width: 342px;
+    height: 68px;
+    justify-content: center;
+    align-items: center;
+    background: #D93856;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    width: 100%;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.buttonLogin:hover {
+    opacity: 0.8;
+}
+.buttonLogin:active {
+    opacity: 1;
+}
+
+i {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.LoginGoogle {
+    display: flex;
+    height: 68px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.14);
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 17px;
+    width: 100%;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.LoginGoogle:hover {
+    opacity: 0.6;
+}
+.LoginGoogle:active {
+    opacity: 1;
+}
+
+.googleicon {
+    margin-right: 15px;
+}
+
+.changeLogin {
+    margin-top: 45px;
+}
+
+
+a {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    text-decoration: none;
+}
+
+span {
+    color: #FFF;
+}
